@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        .navi {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            background-color: aliceblue;
+            color: white;
+            text-align: center;
+            z-index: 99;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+
+        .home {
+            padding-top: 80px;
+            height: 40vh;
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/holoID.jpg');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        
+
+
+
+        .aboutMe {
+            padding-top: 40px;
+            padding-bottom: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        
+
+        .contact {
+            
+            padding-left: 100px;
+            padding-right: 100px;
+            margin-bottom: 45px;
+            max-width: 1500px;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <section id="navbar">
+            <div class="navi">
+                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                    <a href="#navbar"
+                        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                        <img src="img/Hololive.png" style="width: 60px; " alt="">
+
+                        <span class="fs-4">Website?</span>
+                    </a>
+
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a href="#home" class="nav-link " aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="#aboutMe" class="nav-link">about Me</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
+
+                    </ul>
+                </header>
+            </div>
+        </section>
+
+
+        <!-- navbar end -->
+
+        <!-- content -->
+
+        <!-- home -->
+        <section id="home">
+            <div class="home">
+                <div class="homeContent p-4 p-md-5 mb-4 text-white rounded ">
+                    <div class="col-md-12 px-0">
+                        <h1 class="display-4 fst-italic">This is My first website.</h1>
+                        <p class="lead my-3"> I like doing my daily tasks and activities by watching virtual YouTubers
+                        </p>
+                        <p class="lead mb-0"><a href="#" class="text-white fw-bold">Stay Tune For New Content....</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- home end -->
+
+        <!-- about me -->
+        <section id="aboutMe">
+            <h2 class="pb-2 border-bottom" style="margin-top: 100px;">my profile?</h2>
+            <div class="aboutMe">
+                <div class="card" style="width: 20rem;">
+                    <img src="img/profile2.png" class="card-img-top" alt="img/profile.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Firmanda Arbito</h5>
+                        <p class="card-text">im from the forrest in east of java, just normal person with tie and
+                            nothing special</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about me end -->
+
+        <!--project/pengalaman  -->
+        <section id="projects">
+            <div class="projects">
+                <div class="container px-4 py-5" id="featured-3">
+                    <h2 class="pb-2 border-bottom">try some simulation Project</h2>
+                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+                        <div class="feature col">
+                            <div class="feature-icon  bg-gradient"
+                                style="display: flex; justify-content: center; align-items: center; text-align: center;">
+                                <img src="img/ArduinoSimulation.png" alt="" style="width: 300px;">
+                            </div>
+                            <h2>trying simulating arduino uno</h2>
+                            <p>I tried to make a simulation on Arduino, where when a certain situation occurs on the
+                                ultrasonic sensor, the servo will move.</p>
+                            <!-- <a href="#" class="icon-link">
+                                want see that thing?
+                                <svg class="bi" width="1em" height="1em">
+                                    <use xlink:href="#chevron-right" />
+                                </svg>
+                            </a> -->
+                        </div>
+
+                        <div class="feature col">
+                            <div class="feature-icon  bg-gradient"
+                                style="display: flex; justify-content: center; align-items: center; text-align: center;">
+                                <img src="img/cPlusPlus.png" alt="" style="width: 300px;">
+                            </div>
+                            <h2>making some logic with c++</h2>
+                            <p>I tried to create logic for carrying an item in a bag using C++</p>
+                            <!-- <a href="#" class="icon-link">
+                                want see that thing?
+                                <svg class="bi" width="1em" height="1em">
+                                    <use xlink:href="#chevron-right" />
+                                </svg>
+                            </a> -->
+                        </div>
+
+                        <div class="feature col">
+                            <div class="feature-icon  bg-gradient"
+                                style="display: flex; justify-content: center; align-items: center; text-align: center;">
+                                <img src="img/cisco.png" alt="" style="width: 300px;">
+                            </div>
+                            <h2>trying simulating network with cisco </h2>
+                            <p>I am trying to create a network simulation with a router and access point where later a
+                                cable is disconnected and the router will determine the best path to reach the user.</p>
+                            <!-- <a href="#" class="icon-link">
+                                want see that thing?
+                                <svg class="bi" width="1em" height="1em">
+                                    <use xlink:href="#chevron-right" />
+                                </svg>
+                            </a> -->
+                        </div>
+
+                        <div class="feature col">
+                            <div class="feature-icon  bg-gradient"
+                                style="display: flex; justify-content: center; align-items: center; text-align: center;">
+                                <img src="img/PeminjamanLab.png" alt="" style="width: 300px;">
+                            </div>
+                            <h2>web for lending some things</h2>
+                            <p>I am trying to create a display and simulation of borrowing from a website for borrowing
+                                goods in the laboratory.</p>
+                            <!-- <a href="#" class="icon-link">
+                                want see that thing?
+                                <svg class="bi" width="1em" height="1em">
+                                    <use xlink:href="#chevron-right" />
+                                </svg>
+                            </a> -->
+                        </div>
+
+                        <div class="feature col">
+                            <div class="feature-icon  bg-gradient"
+                                style="display: flex; justify-content: center; align-items: center; text-align: center;">
+                                <img src="img/mbtiTest.png" alt="" style="width: 230px;">
+                            </div>
+                            <h2>Test MBTI Application</h2>
+                            <p>I am trying to create an MBTI test application using Java NetBeans using a MySQL database
+                            </p>
+                            <!-- <a href="#" class="icon-link">
+                                want see that thing?
+                                <svg class="bi" width="1em" height="1em">
+                                    <use xlink:href="#chevron-right" />
+                                </svg>
+                            </a> -->
+                        </div>
+
+                        <div class="feature col">
+                            <div class="feature-icon  bg-gradient"
+                                style="display: flex; justify-content: center; align-items: center; text-align: center;">
+                                <img src="img/moona.png" alt="" style="width: 300px;">
+                            </div>
+                            <h2>Moona Hosinova Channel</h2>
+                            <p>I didn't do anything for Moona Hosinova, but I became her fan because her songs were good
+                                and accompanied me in doing my school assignments</p>
+                            <!-- <a href="#" class="icon-link">
+                                want see that thing?
+                                <svg class="bi" width="1em" height="1em">
+                                    <use xlink:href="#chevron-right" />
+                                </svg>
+                            </a> -->
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- pengalaman end -->
+
+        <!-- contact -->
+        <section id="contact">
+            <h2 class="pb-2 border-bottom" style="margin-top: 20px; margin-bottom:20px;">want to contact?</h2>
+            <div class="contact">
+                <!-- <form>
+
+                    <h1 class="h3 mb-3 fw-normal">Contact</h1>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Name</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit">contact us</button>
+
+                </form> -->
+                <form action="" id="" method="">
+
+                    <!--Name input-->
+
+                    <div class="mb-3">
+
+                        <label class="form-label">Name</label>
+
+                        <input class="form-control"  required="" type="text" />
+
+                    </div>
+                    <div class="mb-3">
+
+                        <label class="form-label">Alamat Email</label>
+
+                        <input class="form-control"  required="" type="email" />
+
+                    </div>
+                    <div class="mb-3">
+
+                        <label class="form-label">Pesan</label>
+
+                        <textarea class="form-control"  style="height: 10rem;"
+                            type="text"></textarea>
+
+                    </div>
+                    <div class="d-grid">
+
+                        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+        <!-- contact end -->
+
+        <!-- content end -->
+
+        <!--  footer -->
+        <div class="footer">
+            <p>@just dont copy my photo</p>
+        </div>
+
+        <!-- footer end -->
+    </div>
+</body>
+
+</html>
