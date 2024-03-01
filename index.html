@@ -15,6 +15,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
+        
         .navi {
             position: fixed;
             left: 0;
@@ -31,22 +32,32 @@
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: red;
+            background-color: rgb(93, 146, 207);
             color: white;
             text-align: center;
         }
 
         .home {
             padding-top: 80px;
-            height: 40vh;
+            height: 100vh;
+           
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/holoID.jpg');
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
+            background-size: cover;
+            background-attachment: fixed;
+           
+            
+
+
+            background-repeat: no-repeat;
+            border-color: black;
+            background-blend-mode: screen;
         }
 
-        
+
 
 
 
@@ -60,15 +71,15 @@
 
         }
 
-        
+
 
         .contact {
-            
+
             padding-left: 100px;
             padding-right: 100px;
             margin-bottom: 45px;
             max-width: 1500px;
-            
+
 
         }
     </style>
@@ -78,7 +89,7 @@
     <div class="container">
         <!-- navbar -->
         <section id="navbar">
-            <div class="navi">
+            <div class="navi content-fluid">
                 <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
                     <a href="#navbar"
                         class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
@@ -105,9 +116,9 @@
 
         <!-- home -->
         <section id="home">
-            <div class="home">
+            <div class="home ">
                 <div class="homeContent p-4 p-md-5 mb-4 text-white rounded ">
-                    <div class="col-md-12 px-0">
+                    <div class="col-md-12 px-0" style="background-color: rgba(0, 0, 0, 0.5);">
                         <h1 class="display-4 fst-italic">This is My first website.</h1>
                         <p class="lead my-3"> I like doing my daily tasks and activities by watching virtual YouTubers
                         </p>
@@ -280,22 +291,21 @@
 
                         <label class="form-label">Name</label>
 
-                        <input class="form-control"  required="" type="text" />
+                        <input class="form-control" required="" type="text" />
 
                     </div>
                     <div class="mb-3">
 
                         <label class="form-label">Alamat Email</label>
 
-                        <input class="form-control"  required="" type="email" />
+                        <input class="form-control" required="" type="email" />
 
                     </div>
                     <div class="mb-3">
 
                         <label class="form-label">Pesan</label>
 
-                        <textarea class="form-control"  style="height: 10rem;"
-                            type="text"></textarea>
+                        <textarea class="form-control" style="height: 10rem;" type="text"></textarea>
 
                     </div>
                     <div class="d-grid">
